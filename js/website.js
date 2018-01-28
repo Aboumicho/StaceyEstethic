@@ -16,14 +16,21 @@ app.config(function($routeProvider) {
         templateUrl : "partials/home.html"
     }).when("/service", {
         templateUrl : "partials/service.html"
+    }).when("/Facial", {
+        templateUrl : "partials/Facial/Facial.html"
+    }).when("/casmara", {
+        templateUrl : "partials/Facial/casmara/Casmara.html"
+    }).when("/Oxygeneo", {
+        templateUrl : "partials/Facial/Oxygeneo/Oxygeneo.html"
+    }).when("/Body", {
+        templateUrl : "partials/Facial/bodytreatment/Body.html"
     })
-
     ;
+    return $routeProvider;
 });
 
 app.config(['$locationProvider', function($locationProvider) {
     $locationProvider.hashPrefix('');
 }]);
-function MainCtrl($scope){
 
-}
+
