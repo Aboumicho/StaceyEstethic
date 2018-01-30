@@ -1,4 +1,4 @@
-<script src="./js/test.js"></script>
+<script src="./js/router.js"></script>
 <div class="header">
     <div class="container">
         <div class="row">
@@ -13,59 +13,59 @@
                             <li class="has-sub"><a href="#/service" title="Service List">Service List</a>
                                 <ul>
                                     <!-- SERVICES OFFERED -->
-                                    <li> Facial Treatments
+                                    <li> <a href="#" onclick=LoadFacialTreatments()>Facial Treatments</a>
                                         <!-- Types of facial treatments -->
                                         <ul>
                                             <!--Casmara-->
-                                            <li>
-                                                <a href="#/Facial/casmara">Casmara</a>
+                                            <li class="has-sub">
+                                                <a href="#" onclick=LoadFacialCasmara()>Casmara</a>
                                             </li>
 
                                             <!--Oxygeneo-->
                                             <li>
-                                                <a href="#/Oxygeneo">Oxygeneo</a>
+                                                <a href="#" onclick=LoadFacialOxygeneo()>Oxygeneo</a>
                                             </li>
 
                                             <!--Other treatments-->
                                             <li>
-                                                <a href="#/Facial/Oxygeneo/dermaroller">Dermaroller</a>
+                                                <a href="#" onclick=LoadFacialDermaroller()>Dermaroller</a>
                                             </li>
 
                                             <li>
-                                                <a href="#/Facial/Oxygeneo/maximus">Maximus</a>
+                                                <a href="#" onclick=LoadFacialMaximus()>Maximus</a>
                                             </li>
 
                                         </ul>
 
                                     </li>
 
-                                    <li>Body Treatments
+                                    <li><a href="#" onclick=LoadBodyTreatments()>Body Treatments</a>
                                         <!--Types of body treatments-->
                                         <ul>
                                                 <!--Casmara-->
                                                 <li>
-                                                    <a href="#/Facial/casmara">Casmara</a>
+                                                    <a href="#" onclick=LoadbodyCasmara()>Casmara</a>
                                                 </li>
                                                     
                                                 <!--Other treatments-->
                                                 <li>
-                                                    <a href="#/Facial/Oxygeneo/dermaroller">Dermaroller</a>
+                                                    <a href="#" onclick=LoadBodyDermaroller()>Dermaroller</a>
                                                 </li>
     
                                                 <li>
-                                                    <a href="#/Facial/Oxygeneo/maximus">Maximus</a>
+                                                    <a href="#" onclick=LoadBodyMaximus()>Maximus</a>
                                                 </li>
 
                                                 <li>
-                                                    <a href="#/Facial/Oxygeneo/maximus">Infrared Thermal Blanket</a>
+                                                    <a href="#" onclick=LoadBodyInfrared()>Infrared Thermal Blanket</a>
                                                 </li>
     
                                             </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="active"><a href="#" onclick=loadOstheopathy()>Osteopathy</a></li>
-                            <li class="active"><a href="#" onclick=loadOurMission() title="Our Mission ">Our Mission</a></li>
+                            <li class="active"><a href="#" onclick=LoadOstheopathy()>Osteopathy</a></li>
+                            <li class="active"><a href="#" onclick=LoadOurMission() title="Our Mission ">Our Mission</a></li>
                             <li class="active"><a href="#" onclick=LoadContact() title="Contact Us">Contact</a> </li>
 
                         </ul>
