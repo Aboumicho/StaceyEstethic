@@ -1,0 +1,67 @@
+<div class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+            </div>
+            <div class="col-lg-8 col-md-4 col-sm-12 col-xs-12">
+                <div class="navigation">
+                    <div id="navigation">
+                        <ul>
+                            <li class="active"><a href="#/home" title="Home">Home</a></li>
+                            <li class="has-sub"><a href="#/service" title="Service List">Service List</a>
+                                <ul>
+                                    <!-- SERVICES OFFERED -->
+                                    <li ng-init="casmara = ['Goji',
+                                    'Sensitive',
+                                    'Novanew',
+                                    'Retense',
+                                    'Gold',
+                                    'Cinnamon'
+                                    ]"><a href="#/Facial"> Facial Treatments </a>
+                                        <!-- Types of facial treatments -->
+                                        <ul>
+
+                                            <!--Casmara-->
+                                            <li>
+                                                <a href="#/Facial/casmara">Casmara</a>
+                                            </li>
+
+                                            <!--Oxygeneo-->
+                                            <li ng-init ="oxygeneo = ['Neorevive', 'Neobright']">
+                                                <a href="#/Oxygeneo">Oxygeneo</a>
+                                            </li>
+                                            <!--Other treatments-->
+                                            <li>
+                                                <a href="#/Facial/Oxygeneo/dermaroller">Dermaroller</a>
+                                            </li>
+                                            <li>
+                                                <a href="#/Facial/Oxygeneo/maximus">Maximus</a>
+                                            </li>
+
+                                        </ul>
+
+                                    </li>
+
+                                    <li><a href="#/Body"> Body Treatments </a>
+                                        <!--Types of body treatments-->
+                                        <ul ng-init="body = ['Casmara', 'Dermaroller', 'Maximus']">
+                                            <li ng-repeat="x in body"><a href="#/bodytreatment/{{x}}">{{x}}</a></li>
+                                            <li><a href="#/bodytreatment/Infrared">InfraRed Thermal Blanket</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#/subservice3"> Osteopathy </a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="active"><a href="#/OurMission" title="Our Mission ">Our Mission</a></li>
+                            <li><a href="#/contact" title="Contact Us">Contact</a> </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
