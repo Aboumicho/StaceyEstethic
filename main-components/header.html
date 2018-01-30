@@ -1,3 +1,4 @@
+<script src="./js/test.js"></script>
 <div class="header">
     <div class="container">
         <div class="row">
@@ -12,29 +13,24 @@
                             <li class="has-sub"><a href="#/service" title="Service List">Service List</a>
                                 <ul>
                                     <!-- SERVICES OFFERED -->
-                                    <li ng-init="casmara = ['Goji',
-                                    'Sensitive',
-                                    'Novanew',
-                                    'Retense',
-                                    'Gold',
-                                    'Cinnamon'
-                                    ]"><a href="#/Facial"> Facial Treatments </a>
+                                    <li> Facial Treatments
                                         <!-- Types of facial treatments -->
                                         <ul>
-
                                             <!--Casmara-->
                                             <li>
                                                 <a href="#/Facial/casmara">Casmara</a>
                                             </li>
 
                                             <!--Oxygeneo-->
-                                            <li ng-init ="oxygeneo = ['Neorevive', 'Neobright']">
+                                            <li>
                                                 <a href="#/Oxygeneo">Oxygeneo</a>
                                             </li>
+
                                             <!--Other treatments-->
                                             <li>
                                                 <a href="#/Facial/Oxygeneo/dermaroller">Dermaroller</a>
                                             </li>
+
                                             <li>
                                                 <a href="#/Facial/Oxygeneo/maximus">Maximus</a>
                                             </li>
@@ -43,20 +39,34 @@
 
                                     </li>
 
-                                    <li><a href="#/Body"> Body Treatments </a>
+                                    <li>Body Treatments
                                         <!--Types of body treatments-->
-                                        <ul ng-init="body = ['Casmara', 'Dermaroller', 'Maximus']">
-                                            <li ng-repeat="x in body"><a href="#/bodytreatment/{{x}}">{{x}}</a></li>
-                                            <li><a href="#/bodytreatment/Infrared">InfraRed Thermal Blanket</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#/subservice3"> Osteopathy </a></li>
+                                        <ul>
+                                                <!--Casmara-->
+                                                <li>
+                                                    <a href="#/Facial/casmara">Casmara</a>
+                                                </li>
+                                                    
+                                                <!--Other treatments-->
+                                                <li>
+                                                    <a href="#/Facial/Oxygeneo/dermaroller">Dermaroller</a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="#/Facial/Oxygeneo/maximus">Maximus</a>
+                                                </li>
 
+                                                <li>
+                                                    <a href="#/Facial/Oxygeneo/maximus">Infrared Thermal Blanket</a>
+                                                </li>
+    
+                                            </ul>
+                                    </li>
                                 </ul>
                             </li>
-
-                            <li class="active"><a href="#/OurMission" title="Our Mission ">Our Mission</a></li>
-                            <li><a href="#/contact" title="Contact Us">Contact</a> </li>
+                            <li class="active"><a href="#" onclick=loadOstheopathy()>Osteopathy</a></li>
+                            <li class="active"><a href="#" onclick=loadOurMission() title="Our Mission ">Our Mission</a></li>
+                            <li class="active"><a href="#" onclick=LoadContact() title="Contact Us">Contact</a> </li>
 
                         </ul>
                     </div>
