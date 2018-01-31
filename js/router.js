@@ -1,3 +1,5 @@
+
+
 function Loadindex(){
     $("#main").empty();
     $("#main").load("./partials-section/index.html");
