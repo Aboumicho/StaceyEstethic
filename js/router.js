@@ -1,49 +1,141 @@
-function LoadContact(){
-    $("#main").load("./partials/contact.html");
+function LoadHome() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Home.html");
 }
 
-function LoadOurMission(){
-    $("#main").load("./partials/OurMission.html");
-}
-function LoadService(){
-    $("#main").load("./partials/service.html");
+function LoadContact() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Contact.html");
 }
 
-function LoadFacial(){
-    $("#main").load("./partials/Facial.html");
-}
-function LoadBody(){
-    $("#main").load("./partials/Facial/body.html");
-}
-function LoadCasmara(){
-    $("#main").load("./partials/casmara/casmara.html");
+function LoadOurMission() {
+    $("#main").empty();
+    $("#main").load("./partials-section/OurMission.html");
 }
 
-function LoadFacial(){
-    $("#main").load("./partials/Facial.html");
-}
-function LoadBody(){
-    $("#main").load("./partials/OurMission.html");
-}
+// Facial Treatments
 
-
-function LoadCinnamon(){
-    $("#main").load("./partials/Facial/Casmara/Cinnamon.html");
+function LoadFacialTreatments() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
 }
 
-function LoadGoji(){
-    $("#main").load("./partials/Facial/Casmara/Goji.html");
+// Traitement faciaux Casmara
+
+function LoadFacialCasmara() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu principal des faciaux, section Casmara
 }
 
-function LoadGold(){
-    $("#main").load("./partials/Gold.html");
+function LoadCasmaraCinnamon() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section Cinnamon
 }
 
-function LoadRetense(){
-    $("#main").load("./partials/Facial/Casmara/Retense.html");
+function LoadCasmaraGoji() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section Goji
 }
 
+function LoadCasmaraGold() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section Gold
+}
 
-function LoadSensitive(){
-    $("#main").load("./partials/Facial/Casmara/Sensitive.html");
+function LoadCasmaraGreentea() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section GreenTea
+}
+
+function LoadCasmaraNova() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section Nova
+}
+
+function LoadCasmaraRetense() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section Retense
+}
+
+function LoadCasmaraSensitive() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Casmara.html");
+    //TODO: Slide down au menu de Casmara, section Sensitive
+}
+
+// Traitement Oxygeneo
+
+function LoadFacialOxygeneo() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des faciaux, section Oxygeneo
+}
+
+function LoadOxygeneoNeorevive() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Oxygeneo.html");
+    //TODO: Slide down au menu des faciaux, section Neorevive
+}
+
+function LoadOxygeneoNeobright() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial-Oxygeneo.html");
+    //TODO: Slide down au menu des faciaux, section Neobright
+}
+
+// Autres
+
+function LoadFacialDermaroller() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des faciaux, section Dermaroller
+}
+
+function LoadFacialMaximus() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des faciaux, section Maximus
+}
+
+// Body treatments
+
+function LoadBodyTreatments() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Body.html");
+}
+
+function LoadbodyCasmara() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des body, section Casmara
+}
+
+function LoadBodyDermaroller() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des body, section Dermaroller
+}
+
+function LoadBodyMaximus() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des body, section Maximus
+}
+
+function LoadBodyInfrared() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Facial.html");
+    //TODO: Slide down au menu des body, section Infrared
+}
+
+function LoadBodyOsteopathy() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Osteopathy.html");
 }
