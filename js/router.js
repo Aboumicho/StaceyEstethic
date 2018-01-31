@@ -1,3 +1,8 @@
+function Loadindex(){
+    $("#main").empty();
+    $("#main").load("./partials-section/index.html");
+}
+
 function LoadHome() {
     $("#main").empty();
     $("#main").load("./partials-section/Home.html");
@@ -24,13 +29,13 @@ function LoadFacialTreatments() {
 
 function LoadFacialCasmara() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/Casmara.html");
     //TODO: Slide down au menu principal des faciaux, section Casmara
 }
 
 function LoadCasmaraCinnamon() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/cinnamon.html");
+    $("#main").load("./partials-section/Facial/casmara/Cinnamon.html");
     //TODO: Slide down au menu de Casmara, section Cinnamon
 }
 
@@ -74,7 +79,7 @@ function LoadCasmaraSensitive() {
 
 function LoadFacialOxygeneo() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/Facial/oxygeneo/oxygeneo.html");
     //TODO: Slide down au menu des faciaux, section Oxygeneo
 }
 

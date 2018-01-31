@@ -846,3 +846,8 @@ opacity: .5; }
 #headerhome{
     background-image: url('../images/facial1.jpg');
 }
+
+.homeCarousel{
+    width: 50%;
+    height: 50%;
+}
