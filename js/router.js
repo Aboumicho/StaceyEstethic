@@ -24,49 +24,49 @@ function LoadFacialTreatments() {
 
 function LoadFacialCasmara() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/Facial/casmara.html");
     //TODO: Slide down au menu principal des faciaux, section Casmara
 }
 
 function LoadCasmaraCinnamon() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/cinnamon.html");
     //TODO: Slide down au menu de Casmara, section Cinnamon
 }
 
 function LoadCasmaraGoji() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/goji.html");
     //TODO: Slide down au menu de Casmara, section Goji
 }
 
 function LoadCasmaraGold() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/gold.html");
     //TODO: Slide down au menu de Casmara, section Gold
 }
 
 function LoadCasmaraGreentea() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/greentea.html");
     //TODO: Slide down au menu de Casmara, section GreenTea
 }
 
 function LoadCasmaraNova() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/nova.html");
     //TODO: Slide down au menu de Casmara, section Nova
 }
 
 function LoadCasmaraRetense() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/retense.html");
     //TODO: Slide down au menu de Casmara, section Retense
 }
 
 function LoadCasmaraSensitive() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Casmara.html");
+    $("#main").load("./partials-section/Facial/casmara/sensitive.html");
     //TODO: Slide down au menu de Casmara, section Sensitive
 }
 
@@ -80,13 +80,13 @@ function LoadFacialOxygeneo() {
 
 function LoadOxygeneoNeorevive() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Oxygeneo.html");
+    $("#main").load("./partials-section/Facial/Oxygeneo/neorevive.html");
     //TODO: Slide down au menu des faciaux, section Neorevive
 }
 
 function LoadOxygeneoNeobright() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial-Oxygeneo.html");
+    $("#main").load("./partials-section/Facial/Oxygeneo/neobright.html");
     //TODO: Slide down au menu des faciaux, section Neobright
 }
 
@@ -94,13 +94,13 @@ function LoadOxygeneoNeobright() {
 
 function LoadFacialDermaroller() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/Facial/dermaroller.html");
     //TODO: Slide down au menu des faciaux, section Dermaroller
 }
 
 function LoadFacialMaximus() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/Facial/maximus.html");
     //TODO: Slide down au menu des faciaux, section Maximus
 }
 
