@@ -126,19 +126,19 @@ function LoadbodyCasmara() {
 
 function LoadBodyDermaroller() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/body/dermaroller.html");
     //TODO: Slide down au menu des body, section Dermaroller
 }
 
 function LoadBodyMaximus() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/body/maximus.html");
     //TODO: Slide down au menu des body, section Maximus
 }
 
 function LoadBodyInfrared() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/body/infrared.html");
     //TODO: Slide down au menu des body, section Infrared
 }
 
