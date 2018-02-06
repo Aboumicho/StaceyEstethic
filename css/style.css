@@ -59,6 +59,15 @@ Author:             Jitu Chauhan
     1. Body / Typography 
 -----------------------------------*/
 
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body {
     font-size: 16px;
     background-color: #fff;
@@ -2560,7 +2569,7 @@ ul.widget-recent-post {}
 
 @media only screen and (max-width: 1200px) {
     .navigation {
-        float: none;
+        float: right;
     }
     .hero-title {
         font-size: 25px;
@@ -2606,7 +2615,7 @@ ul.widget-recent-post {}
 
 @media only screen and (max-width: 992px) {
     .navigation {
-        float: none;
+        float: right;
     }
     .hero-title {
         font-size: 25px;
@@ -2699,6 +2708,8 @@ ul.widget-recent-post {}
 @media only screen and (max-width: 480px) {
     .navigation {
         float: none;
+        margin: 0 auto;
+        text-align: center;
     }
     .hero-title {
         font-size: 25px;
@@ -2797,4 +2808,15 @@ ul.widget-recent-post {}
 
 #home-list {
     list-style-position: inside;
+}
+
+#logo {
+    display: block;
+    /*for the img inside your div */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.suboption {
+    z-index: 9999;
 }
