@@ -73,7 +73,7 @@ body {
 
 body {
     font-size: 16px;
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
     color: #5d5c59;
     font-family: 'Montserrat', sans-serif;
     line-height: 28px;
@@ -745,7 +745,7 @@ label {}
 ----------------------------------*/
 
 .bg-light {
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
 }
 
 .bg-primary {
@@ -753,7 +753,7 @@ label {}
 }
 
 .bg-default {
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
 }
 
 .bg-white {
@@ -1040,7 +1040,7 @@ label {}
 .logo {}
 
 .header {
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
     z-index: 9999;
     position: relative;
     padding-top: 20px;
@@ -1995,7 +1995,7 @@ address {
 .post-block,
 .post-quote {
     position: relative;
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
     padding: 30px;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -2100,7 +2100,7 @@ address {
 /*-------- Related Post --------*/
 
 .related-post-block {
-    border-top: 1px solid #faf5eb;
+    border-top: 1px solid #fcf9f4;
     padding-top: 29px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -2129,7 +2129,7 @@ address {
 
 .nav-previous,
 .nav-next {
-    border: 1px solid #faf5eb;
+    border: 1px solid #fcf9f4;
     padding: 20px;
 }
 
@@ -2158,7 +2158,7 @@ address {
 
 .author-post {
     margin-bottom: 30px;
-    background: #faf5eb;
+    background: #fcf9f4;
     padding: 30px;
     border-radius: 10px;
 }
@@ -2228,7 +2228,7 @@ address {
     z-index: 2;
     color: #fff;
     background-color: #83af46;
-    border: 1px solid #faf5eb;
+    border: 1px solid #fcf9f4;
 }
 
 .st-pagination .pagination>li:first-child>a,
@@ -2265,7 +2265,7 @@ address {
 
 .widget {
     margin-bottom: 10px;
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
     padding: 30px;
     border-radius: 10px;
 }
@@ -2445,7 +2445,7 @@ ul.widget-recent-post {}
 .comments-area {}
 
 .comments-title {
-    border-bottom: 1px solid #faf5eb;
+    border-bottom: 1px solid #fcf9f4;
     padding-bottom: 20px;
     margin-bottom: 30px;
 }
@@ -2460,7 +2460,7 @@ ul.widget-recent-post {}
 .comment-body {
     margin-top: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid #faf5eb;
+    border-bottom: 1px solid #fcf9f4;
     padding-bottom: 20px;
 }
 
@@ -2511,7 +2511,7 @@ ul.widget-recent-post {}
 }
 
 .childern .comment-body {
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
     padding: 20px;
     border-radius: 10px;
 }
@@ -2525,7 +2525,7 @@ ul.widget-recent-post {}
 
 .leave-comments {
     margin-top: 30px;
-    background-color: #faf5eb;
+    background-color: #fcf9f4;
     padding: 40px;
     border-radius: 10px;
 }
