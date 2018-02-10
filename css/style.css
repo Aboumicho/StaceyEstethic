@@ -1,5 +1,7 @@
 @charset "UTF-8";
+
 /* CSS Document */
+
 
 /*------------------------------------------------------------------
 
@@ -54,6 +56,7 @@ Author:             Jitu Chauhan
 13. Media Queries
 
 ------------------------------------------------------------------*/
+
 
 /*-----------------------------------
     1. Body / Typography 
@@ -213,7 +216,9 @@ blockquote {
     border-left: 5px solid #aa9144;
 }
 
+
 /*-------------- align ------------*/
+
 
 /* =WordPress Core
 -------------------------------------------------------------- */
@@ -295,6 +300,7 @@ a img.aligncenter {
     padding: 0 4px 5px;
 }
 
+
 /*-----------------------------------
     2. Form css 
 -----------------------------------*/
@@ -354,6 +360,7 @@ label {}
 .get-in-touch .form-control {
     margin-bottom: 10px;
 }
+
 
 /*-----------------------------------
     3. Buttons 
@@ -458,13 +465,16 @@ label {}
     padding: 5px 7px;
 }
 
+
 /*-----------------------------------
     4. General / Elements 
 -----------------------------------*/
 
+
 /*----------------------- 
     4.1 Section space :
 -------------------------*/
+
 
 /*Note: Section space help to create top bottom space;*/
 
@@ -487,6 +497,7 @@ label {}
     padding-top: 140px;
     padding-bottom: 140px;
 }
+
 
 /*----------------------
    4.2 Margin Space
@@ -564,6 +575,7 @@ label {}
     margin-top: 100px;
 }
 
+
 /*----- less margin space from top --*/
 
 .mt-20 {
@@ -581,6 +593,7 @@ label {}
 .mt-80 {
     margin-top: -80px;
 }
+
 
 /*-----------------------
    4.3 Padding space
@@ -726,6 +739,7 @@ label {}
     padding-right: 80px;
 }
 
+
 /*--------------------------------
 4.4 Background & Block color 
 ----------------------------------*/
@@ -776,6 +790,7 @@ label {}
     padding: 40px;
 }
 
+
 /*--------------------------------
 4.5 Features Block 
 ----------------------------------*/
@@ -816,6 +831,7 @@ label {}
 
 .thumbnail-outline {}
 
+
 /*----------------- video ---------------*/
 
 .video-section {
@@ -835,6 +851,7 @@ label {}
     top: 40%;
     left: 47%;
 }
+
 
 /*--------------------------------
 4.6 Bullet 
@@ -857,6 +874,7 @@ label {}
     color: #78807e;
     content: "\f101";
 }
+
 
 /*--------------------------------
 4.7 Call to actions 
@@ -905,6 +923,7 @@ label {}
     color: #fff;
     margin-bottom: 30px;
 }
+
 
 /*--------------------------------
 4.8 Image Hover Effect 
@@ -962,6 +981,7 @@ label {}
     background: rgba(211, 0, 80, .55);
 }
 
+
 /*--------------------------------
 4.9 Icon 
 ----------------------------------*/
@@ -971,6 +991,7 @@ label {}
 .icon-1x {
     font-size: 18px;
 }
+
 
 /* default icon size of font*/
 
@@ -1006,9 +1027,11 @@ label {}
     color: #fff;
 }
 
+
 /*--------------------------------
 5 Header / Navigations 
 ----------------------------------*/
+
 
 /*--------------------
     5.1 Header Regular 
@@ -1049,6 +1072,7 @@ label {}
 .call-block,
 .mail-block,
 .time-block {}
+
 
 /*--------------------------
     5.2 Navigations Regular
@@ -1166,6 +1190,7 @@ label {}
     padding-right: 32px;
 }
 
+
 /*#navigation > ul > li.has-sub > a:after {
  position: absolute;
  top: 22px;
@@ -1188,6 +1213,7 @@ label {}
     -o-transition: all .25s ease;
     transition: all .25s ease;
 }
+
 
 /*#navigation > ul > li.has-sub:hover > a:before {
  top: 23px;
@@ -1489,6 +1515,7 @@ label {}
     padding: 5px;
 }
 
+
 /*----------------------------------------------
     5.4 Page Header
 ----------------------------------------------*/
@@ -1529,9 +1556,11 @@ label {}
     text-transform: uppercase;
 }
 
+
 /*-----------------------------------
     6. Slider 
 -------------------------------------*/
+
 
 /*-----------------------------------
 7. Content 
@@ -1541,6 +1570,7 @@ label {}
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 
 /*-----------------------------------
 8. Footer 
@@ -1635,6 +1665,7 @@ label {}
     height: 48px;
 }
 
+
 /*-------------- tiny footer ------------*/
 
 .tiny-footer {
@@ -1652,9 +1683,11 @@ label {}
     color: #747474;
 }
 
+
 /*-----------------------------------
 9. Pages 
 -------------------------------------*/
+
 
 /*-------------------------
  9.1 About us
@@ -1695,9 +1728,11 @@ label {}
     letter-spacing: 2px;
 }
 
+
 /*-------------------------
  9.2  Service / single / sidebar
 --------------------------*/
+
 
 /* service section */
 
@@ -1739,6 +1774,7 @@ label {}
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /*-----------------------------------------
     service side-nav
@@ -1789,6 +1825,7 @@ label {}
     color: #bb0349;
 }
 
+
 /*.sidenav li a:before { margin-right: 10px; font-family: FontAwesome; position: absolute; width: 20px; font-size: 12px; color: #7d7f89; content: "138"; left: 10px; }
 .sidenav li a:hover:before { color: #bb0349; }*/
 
@@ -1807,6 +1844,7 @@ label {}
     content: "\f105";
     font-weight: normal;
 }
+
 
 /*--------------------------
   9.5  Testimonial
@@ -1858,6 +1896,7 @@ label {}
     padding-right: 10px;
     font-weight: 400;
 }
+
 
 /*-------------------------
   9.8 Contact us
@@ -1944,6 +1983,7 @@ address {
     line-height: 1.42857143;
 }
 
+
 /*------------------------
  10. Blog pages
 --------------------------*/
@@ -1961,12 +2001,14 @@ address {
     margin-bottom: 30px;
 }
 
+
 /*-- use for thumbnail --*/
 
 .post-holder {
     position: relative;
     margin-bottom: 30px;
 }
+
 
 /*-- for single post page --*/
 
@@ -1988,6 +2030,7 @@ address {
 }
 
 .post-header {}
+
 
 /*-------- Post meta --------*/
 
@@ -2019,6 +2062,7 @@ address {
 .meta-link {}
 
 .meta-tags {}
+
 
 /*-------- Post Type --------*/
 
@@ -2052,6 +2096,7 @@ address {
     line-height: 42px;
 }
 
+
 /*-------- Related Post --------*/
 
 .related-post-block {
@@ -2074,6 +2119,7 @@ address {
 .related-post-img img {
     border-radius: 10px;
 }
+
 
 /*----- Prev Next Post -----*/
 
@@ -2106,6 +2152,7 @@ address {
     text-transform: uppercase;
     font-size: 12px;
 }
+
 
 /*----- Author Post -----*/
 
@@ -2148,6 +2195,7 @@ address {
 .author-social ul li a:hover {}
 
 .author-info {}
+
 
 /*------------- Post Pagination -------------*/
 
@@ -2207,9 +2255,11 @@ address {
     border: 1px solid #aa9144;
 }
 
+
 /*------------------------
   12. Sidebar / Widgets
 --------------------------*/
+
 
 /*----- widget -----*/
 
@@ -2389,6 +2439,7 @@ ul.widget-recent-post {}
 
 .team-designation {}
 
+
 /*----- Comment Post -----*/
 
 .comments-area {}
@@ -2451,6 +2502,7 @@ ul.widget-recent-post {}
 
 .reply {}
 
+
 /*---- thread comments --------*/
 
 .childern {
@@ -2468,6 +2520,7 @@ ul.widget-recent-post {}
     padding-left: 120px;
 }
 
+
 /*----- Leave Reply -----*/
 
 .leave-comments {
@@ -2482,6 +2535,7 @@ ul.widget-recent-post {}
     font-weight: 600;
     font-size: 13px;
 }
+
 
 /*--------------------------------
  Extra Plugin CSS - Back to top  
@@ -2529,6 +2583,7 @@ ul.widget-recent-post {}
     opacity: 1;
 }
 
+
 /*-------------styleguide-------------*/
 
 .box-info {}
@@ -2563,7 +2618,9 @@ ul.widget-recent-post {}
     width: 160px;
 }
 
+
 /*==========  Non-Mobile First Method  ==========*/
+
 
 /* Large Devices, Wide Screens */
 
@@ -2611,6 +2668,7 @@ ul.widget-recent-post {}
     }
 }
 
+
 /* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
@@ -2657,6 +2715,7 @@ ul.widget-recent-post {}
     }
 }
 
+
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
@@ -2702,6 +2761,7 @@ ul.widget-recent-post {}
         list-style: none;
     }
 }
+
 
 /* Extra Small Devices, Phones */
 
@@ -2750,6 +2810,7 @@ ul.widget-recent-post {}
         list-style: none;
     }
 }
+
 
 /* Custom, iPhone Retina */
 
@@ -2819,4 +2880,13 @@ ul.widget-recent-post {}
 
 .suboption {
     z-index: 9999;
+}
+
+#carouselcontainer {
+    width: "100%";
+    height: "400px";
+}
+
+.carouselimg {
+    object-fit: fill;
 }
