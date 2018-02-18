@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i%7cMontserrat:300,300i,400,400i,500,500i,600,600i,700,700i"
+    />
+</head>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Facial</title>
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="post-block">
+                    <div class="row ">
+                        <!-- post block -->
+                        <div class="col-md-6">
+                            <div class="post-img">
+                                <img src="images/facial1.jpg" alt="Facial">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="post-content" ng-init="Facials=['casmara','Oxygeneo']">
+                                <h2>Facials</h2>
+
+                                <div ng-repeat="x in Facials">
+                                    <br/>
+                                    <a href="#/{{x}}" class="btn btn-default">{{x}}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.post block -->
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>
