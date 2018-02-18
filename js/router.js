@@ -59,7 +59,7 @@ function LoadCasmaraGreentea() {
 
 function LoadCasmaraNova() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/Casmara/nova.html");
+    $("#main").load("./partials-section/Facial/Casmara/Nova.html");
     //TODO: Slide down au menu de Casmara, section Nova
 }
 
@@ -118,7 +118,7 @@ function LoadBodyTreatments() {
 
 function LoadbodyCasmara() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial.html");
+    $("#main").load("./partials-section/Facial/Casmara/Casmara.html");
     //TODO: Slide down au menu des body, section Casmara
 }
 
