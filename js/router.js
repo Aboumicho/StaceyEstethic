@@ -1,6 +1,4 @@
-
-
-function Loadindex(){
+function Loadindex() {
     $("#main").empty();
     $("#main").load("./partials-section/index.html");
 }
@@ -31,49 +29,49 @@ function LoadFacialTreatments() {
 
 function LoadFacialCasmara() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/Casmara.html");
+    $("#main").load("./partials-section/Facial/Casmara/Casmara.html");
     //TODO: Slide down au menu principal des faciaux, section Casmara
 }
 
 function LoadCasmaraCinnamon() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/Cinnamon.html");
+    $("#main").load("./partials-section/Facial/Casmara/Cinnamon.html");
     //TODO: Slide down au menu de Casmara, section Cinnamon
 }
 
 function LoadCasmaraGoji() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/goji.html");
+    $("#main").load("./partials-section/Facial/Casmara/Goji.html");
     //TODO: Slide down au menu de Casmara, section Goji
 }
 
 function LoadCasmaraGold() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/gold.html");
+    $("#main").load("./partials-section/Facial/Casmara/Gold.html");
     //TODO: Slide down au menu de Casmara, section Gold
 }
 
 function LoadCasmaraGreentea() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/greentea.html");
+    $("#main").load("./partials-section/Facial/Casmara/Greentea.html");
     //TODO: Slide down au menu de Casmara, section GreenTea
 }
 
 function LoadCasmaraNova() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/nova.html");
+    $("#main").load("./partials-section/Facial/Casmara/nova.html");
     //TODO: Slide down au menu de Casmara, section Nova
 }
 
 function LoadCasmaraRetense() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/retense.html");
+    $("#main").load("./partials-section/Facial/Casmara/Retense.html");
     //TODO: Slide down au menu de Casmara, section Retense
 }
 
 function LoadCasmaraSensitive() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/casmara/sensitive.html");
+    $("#main").load("./partials-section/Facial/Casmara/Sensitive.html");
     //TODO: Slide down au menu de Casmara, section Sensitive
 }
 
@@ -81,19 +79,19 @@ function LoadCasmaraSensitive() {
 
 function LoadFacialOxygeneo() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/oxygeneo/oxygeneo.html");
+    $("#main").load("./partials-section/Facial/Oxygeneo/Oxygeneo.html");
     //TODO: Slide down au menu des faciaux, section Oxygeneo
 }
 
 function LoadOxygeneoNeorevive() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/Oxygeneo/neorevive.html");
+    $("#main").load("./partials-section/Facial/Oxygeneo/Neorevive.html");
     //TODO: Slide down au menu des faciaux, section Neorevive
 }
 
 function LoadOxygeneoNeobright() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/Oxygeneo/neobright.html");
+    $("#main").load("./partials-section/Facial/Oxygeneo/Neobright.html");
     //TODO: Slide down au menu des faciaux, section Neobright
 }
 
@@ -101,13 +99,13 @@ function LoadOxygeneoNeobright() {
 
 function LoadFacialDermaroller() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/dermaroller.html");
+    $("#main").load("./partials-section/Facial/Dermaroller.html");
     //TODO: Slide down au menu des faciaux, section Dermaroller
 }
 
 function LoadFacialMaximus() {
     $("#main").empty();
-    $("#main").load("./partials-section/Facial/maximus.html");
+    $("#main").load("./partials-section/Facial/Maximus.html");
     //TODO: Slide down au menu des faciaux, section Maximus
 }
 
@@ -126,19 +124,19 @@ function LoadbodyCasmara() {
 
 function LoadBodyDermaroller() {
     $("#main").empty();
-    $("#main").load("./partials-section/body/dermaroller.html");
+    $("#main").load("./partials-section/Body/Dermaroller.html");
     //TODO: Slide down au menu des body, section Dermaroller
 }
 
 function LoadBodyMaximus() {
     $("#main").empty();
-    $("#main").load("./partials-section/body/maximus.html");
+    $("#main").load("./partials-section/Body/Maximus.html");
     //TODO: Slide down au menu des body, section Maximus
 }
 
 function LoadBodyInfrared() {
     $("#main").empty();
-    $("#main").load("./partials-section/body/infrared.html");
+    $("#main").load("./partials-section/Body/Infrared.html");
     //TODO: Slide down au menu des body, section Infrared
 }
 
