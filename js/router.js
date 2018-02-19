@@ -116,7 +116,7 @@ function LoadBodyTreatments() {
     $("#main").load("./partials-section/Body.html");
 }
 
-function LoadbodyCasmara() {
+function LoadBodyCasmara() {
     $("#main").empty();
     $("#main").load("./partials-section/Facial/Casmara/Casmara.html");
     //TODO: Slide down au menu des body, section Casmara
