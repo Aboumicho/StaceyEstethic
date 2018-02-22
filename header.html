@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="nav-no-js">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+    <title>Responsive Navigation</title>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/defaults.min.css">
+    <link rel="stylesheet" href="css/nav-core.min.css">
+    <link rel="stylesheet" href="css/nav-layout.min.css">
+
+    <!--[if lt IE 9]>
+    <link rel="stylesheet" href="css/ie8-core.min.css">
+    <link rel="stylesheet" href="css/ie8-layout.min.css">
+    <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <script src="js/rem.min.js"></script>
+    <script src="js/router.js"></script>
+</head>
+
+<body>
+
+
+<a href="#" class="nav-button">Menu</a>
+
+<nav class="nav">
+    <ul>
+        <li><a  onclick=LoadHome()>Home</a></li>
+        <li><a href="#" onclick="LoadOurMission()">About</a></li>
+
+        <li class="nav-submenu"><a href="#">Service List</a>
+            <ul>
+                <li class="nav-submenu"><a href="#">Facial Treatments</a>
+                    <ul>
+
+                        <li class="nav-submenu"><a href="#">Casmara</a>
+                            <ul>
+                                <li ><a href="#" onclick=LoadCasmaraGoji()>Goji Mask</a></li>
+                                <li ><a href="#" onclick=LoadCasmaraSensitive()>Sensitive Mask</a></li>
+                                <li ><a href="#" onclick=LoadCasmaraNova()>Novanew Mask</a></li>
+                                <li ><a href="#" onclick=LoadCasmaraRetense()>Retense Mask</a></li>
+                                <li ><a href="#" onclick=LoadCasmaraGold()>Gold Mask</a></li>
+                                <li ><a href="#" onclick=LoadCasmaraCinnamon()>Cinnamon Mask</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-submenu"><a>Oxygeneo</a>
+                        <ul>
+                            <li ><a href="#" onclick=LoadOxygeneoNeobright()>NeoBright</a>
+                            <li ><a href="#" onclick=LoadOxygeneoNeorevive()>NeoRevive</a>
+
+                        </ul>
+                        </li>
+                        <li><a href="#" onclick=LoadFacialDermaroller()>Dermaroller</a></li>
+                        <li><a href="#" onclick=LoadFacialMaximus()>Maximus</a></li>
+                    </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Body Treatments</a>
+                    <ul>
+                        <li ><a href="#" onclick=LoadBodyCasmara()>Casmara</a></li>
+                        <li ><a href="#" onclick=LoadBodyDermaroller()>Dermaroller</a></li>
+                        <li ><a href="#" onclick=LoadBodyMaximus()>Maximus</a></li>
+                        <li ><a href="#" onclick=LoadBodyInfrared()>InfraRed thermal blanket</a></li>
+
+                    </ul>
+                </li>
+                <li><a onclick=LoadBodyOsteopathy()>Osteopathy</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#" onclick=LoadContact()>Contact</a></li>
+    </ul>
+</nav>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/nav.jquery.min.js"></script>
+<script>
+    $('.nav').nav();
+</script>
+</body>
+</html>

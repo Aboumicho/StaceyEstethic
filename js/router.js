@@ -144,3 +144,13 @@ function LoadBodyOsteopathy() {
     $("#main").empty();
     $("#main").load("./partials-section/Osteopathy.html");
 }
+
+function LoadBodyOsteopathy() {
+    $("#main").empty();
+    $("#main").load("./partials-section/Osteopathy.html");
+}
+
+function LoadServiceList() {
+    $("#main").empty();
+    $("#main").load("./partials-section/ServiceList.html");
+}
