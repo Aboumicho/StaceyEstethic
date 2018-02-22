@@ -144,7 +144,7 @@ ul li,
 ol li {}
 
 a {
-    color: #eaf5dc;
+    color: #5e6640;
     text-decoration: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -385,20 +385,20 @@ label {}
 
 .btn-default {
     color: #fff;
-    background-color: #EFD79D;
+    background-color: #5e6640;
 }
 
 .btn-default:hover {
     color: #fff;
-    background-color: #608232;
-    border-color: #608232;
+    background-color: #e8f5d7;
+    border-color: #393b21;
 }
 
 .btn-default.focus,
 .btn-default:focus {
     color: #fff;
-    background-color: #608232;
-    border-color: #608232;
+    background-color: #393b21;
+    border-color: #393b21;
 }
 
 .btn-primary {
@@ -421,15 +421,15 @@ label {}
 }
 
 .btn-white:hover {
-    background-color: #608232;
-    border-color: #608232;
+    background-color: #393b21;
+    border-color: #393b21;
     color: #fff;
 }
 
 .btn-white.focus,
 .btn-white:focus {
-    background-color: #608232;
-    border-color: #608232;
+    background-color: #393b21;
+    border-color: #393b21;
     color: #fff;
 }
 
@@ -1964,7 +1964,7 @@ label {}
     height: 32px;
     width: 32px;
     border-radius: 50px;
-    background-color: #608232;
+    background-color: #393b21;
     text-align: center;
     padding: 7px;
     line-height: 1.2;
@@ -1973,7 +1973,7 @@ label {}
 }
 
 .contact-social a i:hover {
-    color: #608232;
+    color: #393b21;
 }
 
 address {
@@ -2381,7 +2381,7 @@ ul.widget-recent-post {}
 .social-circle a {
     height: 33px;
     width: 33px;
-    background-color: #eaf5dc;
+    background-color: #5e6640;
     color: #fff;
     border-radius: 100%;
     padding: 5px;
@@ -2391,7 +2391,7 @@ ul.widget-recent-post {}
 }
 
 .social-circle a:hover {
-    background-color: #608232;
+    background-color: #393b21;
 }
 
 .widget-call-to-action {
