@@ -144,7 +144,7 @@ ul li,
 ol li {}
 
 a {
-    color: #83af46;
+    color: #eaf5dc;
     text-decoration: none;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -154,7 +154,7 @@ a {
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #608232;
+    color: #fcf0de;
 }
 
 b,
@@ -195,7 +195,7 @@ strong {
 h3 small {
     font-weight: 400;
     line-height: 1;
-    color: #83af46;
+    color: #eaf5dc;
     font-size: 14px;
 }
 
@@ -213,7 +213,7 @@ blockquote {
     line-height: 32px;
     color: #3c3c3c;
     font-style: italic;
-    border-left: 5px solid #83af46;
+    border-left: 5px solid #c8d4b9;
 }
 
 
@@ -415,7 +415,7 @@ label {}
 .btn-primary:focus {}
 
 .btn-white {
-    color: #83af46;
+    color: #eaf5dc;
     background-color: #fff;
     border: 1px solid #fff;
 }
@@ -444,10 +444,10 @@ label {}
 }
 
 .btn-link:hover {
-    color: #83af46;
+    color: #eaf5dc;
     font-weight: 700;
     text-decoration: none;
-    border-bottom: 1px solid #83af46;
+    border-bottom: 1px solid #eaf5dc;
 }
 
 .btn-lg {
@@ -749,7 +749,7 @@ label {}
 }
 
 .bg-primary {
-    background-color: #83af46;
+    background-color: #eaf5dc;
 }
 
 .bg-default {
@@ -1012,7 +1012,7 @@ label {}
 }
 
 .icon-default {
-    color: #83af46;
+    color: #eaf5dc;
 }
 
 .icon-primary {
@@ -1110,7 +1110,7 @@ label {}
 }
 
 .is-sticky .header {
-    border-bottom: 1px solid #83af46;
+    border-bottom: 1px solid #eaf5dc;
 }
 
 #navigation,
@@ -1175,7 +1175,7 @@ label {}
 #navigation>ul>li>a {
     padding: 20px;
     font-size: 13px;
-    color: #83af46;
+    color: #eaf5dc;
     text-decoration: none;
     font-weight: 500;
     text-transform: uppercase;
@@ -1183,7 +1183,7 @@ label {}
 
 #navigation>ul>li:hover>a {
     color: #ffffff;
-    background-color: #83af46;
+    background-color: #eaf5dc;
 }
 
 #navigation>ul>li.has-sub>a {
@@ -1268,7 +1268,7 @@ label {}
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    background: #83af46;
+    background: #eaf5dc;
     text-transform: uppercase;
     border-bottom: 1px solid #7aa540;
 }
@@ -1281,7 +1281,7 @@ label {}
 #navigation ul ul li:hover>a,
 #navigation ul ul li a:hover {
     color: #ffffff;
-    background-color: #83af46;
+    background-color: #eaf5dc;
 }
 
 #navigation ul ul li.has-sub>a:after {
@@ -1291,7 +1291,7 @@ label {}
     width: 8px;
     height: 2px;
     display: block;
-    background: #83af46;
+    background: #eaf5dc;
     content: '';
 }
 
@@ -1307,7 +1307,7 @@ label {}
     display: block;
     width: 2px;
     height: 8px;
-    background: #83af46;
+    background: #eaf5dc;
     content: '';
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
@@ -1611,7 +1611,7 @@ label {}
 }
 
 .footer-widget li a:hover {
-    color: #83af46;
+    color: #eaf5dc;
 }
 
 .footer-link {}
@@ -1628,15 +1628,14 @@ label {}
 }
 
 .footer-social ul li a:hover i {
-    color: #83af46;
+    color: #eaf5dc;
 }
 
 .footer .contact li {
     position: relative;
     padding-left: 40px;
     display: block;
-    '
- margin-bottom: 8px;
+    margin-bottom: 8px;
     padding: 0 0 8px 40px;
     color: #747474;
 }
@@ -1770,7 +1769,7 @@ label {}
 
 .price {
     font-size: 24px;
-    color: #83af46;
+    color: #eaf5dc;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
 }
@@ -1808,13 +1807,13 @@ label {}
 
 .sidenav li a:hover {
     color: #fff;
-    background-color: #83af46;
+    background-color: #eaf5dc;
 }
 
 .sidenav li a.active,
 .sidenav ul li a.active .sidenav ul li i {
     color: #fff;
-    background-color: #83af46;
+    background-color: #eaf5dc;
 }
 
 .sidenav li a:focus {
@@ -1855,7 +1854,7 @@ label {}
     font-size: 100px;
     font-family: 'Libre Baskerville', serif;
     font-style: normal;
-    color: #83af46;
+    color: #eaf5dc;
     line-height: 0px;
     top: 52px;
 }
@@ -1892,7 +1891,7 @@ label {}
 .testimonial-meta {
     font-size: 13px;
     text-transform: uppercase;
-    color: #83af46;
+    color: #eaf5dc;
     padding-right: 10px;
     font-weight: 400;
 }
@@ -1913,7 +1912,7 @@ label {}
 }
 
 .contact-block ul li i {
-    color: #83af46;
+    color: #eaf5dc;
     float: left;
     padding: 0px;
 }
@@ -2085,13 +2084,13 @@ address {
 .post-audio {}
 
 .post-quote {
-    background-color: #83af46;
+    background-color: #eaf5dc;
 }
 
 .quote-content {}
 
 .post-quote blockquote {
-    color: #fff;
+    color: rgb(34, 34, 34);
     font-size: 34px;
     line-height: 42px;
 }
@@ -2227,7 +2226,7 @@ address {
 .st-pagination .pagination>li>a.active {
     z-index: 2;
     color: #fff;
-    background-color: #83af46;
+    background-color: #eaf5dc;
     border: 1px solid #fcf9f4;
 }
 
@@ -2251,8 +2250,8 @@ address {
     z-index: 3;
     color: #fff;
     cursor: default;
-    background-color: #83af46;
-    border: 1px solid #83af46;
+    background-color: #eaf5dc;
+    border: 1px solid #eaf5dc;
 }
 
 
@@ -2290,11 +2289,11 @@ address {
 }
 
 .widget ul li a.active {
-    color: #83af46;
+    color: #eaf5dc;
 }
 
 .widget ul li a:hover {
-    color: #83af46;
+    color: #eaf5dc;
 }
 
 .widget-search {}
@@ -2302,8 +2301,8 @@ address {
 .widget-search .input-group-addon {
     color: #fff;
     text-align: center;
-    background-color: #83af46;
-    border: 1px solid #83af46;
+    background-color: #eaf5dc;
+    border: 1px solid #eaf5dc;
     border-left: transparent;
 }
 
@@ -2368,9 +2367,9 @@ ul.widget-recent-post {}
 }
 
 .widget-tags a:hover {
-    background-color: #83af46;
+    background-color: #eaf5dc;
     color: #fff;
-    border: 1px solid #83af46;
+    border: 1px solid #eaf5dc;
 }
 
 .widget-text {}
@@ -2382,7 +2381,7 @@ ul.widget-recent-post {}
 .social-circle a {
     height: 33px;
     width: 33px;
-    background-color: #83af46;
+    background-color: #eaf5dc;
     color: #fff;
     border-radius: 100%;
     padding: 5px;
@@ -2432,7 +2431,7 @@ ul.widget-recent-post {}
 .team-meta {
     text-transform: uppercase;
     font-size: 12px;
-    color: #83af46;
+    color: #eaf5dc;
     font-weight: 500;
     letter-spacing: 1px;
 }
@@ -2589,7 +2588,7 @@ ul.widget-recent-post {}
 .box-info {}
 
 .box-default-color {
-    background-color: #83af46;
+    background-color: #eaf5dc;
     height: 160px;
     width: 160px;
 }
@@ -2890,4 +2889,3 @@ ul.widget-recent-post {}
 .carouselimg {
     object-fit: fill;
 }
-
